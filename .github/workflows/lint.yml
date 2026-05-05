@@ -1,0 +1,19 @@
+name: Lint HTML
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install HTMLHint
+        run: npm install htmlhint -g
+
+      - name: Run HTMLHint
+        run: htmlhint "**/*.html"
+
+        
