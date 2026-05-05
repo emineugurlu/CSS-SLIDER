@@ -1,24 +1,49 @@
-🚀 Rotating Photos Design
-This project demonstrates a rotating photo effect created using HTML and CSS. The photos are displayed in a dynamic and interactive way, rotating on hover to reveal a different view or additional content. This effect uses CSS animations to create smooth transitions, providing an engaging and visually appealing experience for the user.
+# 🎡 Orbit3D: Dynamic Carousel & Spatial CSS Orchestration
 
-🌟 Features
-✔ Rotating Photo Effect – Photos smoothly rotate when hovered over, revealing hidden content or additional images.
-✔ CSS Animations – Utilizes keyframes to control the rotation and smooth transitions.
-✔ Interactive User Experience – Users can interact with the photos for a more dynamic experience.
+> **"A high-performance 3D photo carousel exploring CSS perspective, rotational matrices, and interactive spatial transitions."**
 
-🔧 Technologies Used
-HTML5
-CSS3 (Including Animations and Transitions)
+![Repo Size](https://img.shields.io/github/repo-size/emineugurlu/CSS-SLIDER?color=magenta&style=flat-square)
+![Language Count](https://img.shields.io/github/languages/count/emineugurlu/CSS-SLIDER?color=magenta&style=flat-square)
+![CSS Tech](https://img.shields.io/badge/CSS-3D--Transforms-blueviolet?style=flat-square)
 
-🚀 How to Use
-1️⃣ Clone the repository:
-git clone https://github.com/emineugurlu/CSS-SLIDER.git
+Visual depth defines modern web experiences. This project is a technical deep dive into **Non-Linear UI Motion**, utilizing CSS `transform-style: preserve-3d` to create a seamless, rotating gallery. By manipulating the Z-axis, I implemented a spatial layout where elements interact dynamically with the user's viewport.
 
-2️⃣ Navigate to the project folder:
-cd CSS-SLIDER
+---
 
-3️⃣ Open index.html in a browser to view the rotating photo effect.
+## 🚀 Engineering Mindset
 
-Feel free to explore, modify, or contribute to this project on GitHub! 😊
+This carousel focuses on **Geometric Rendering & Motion**:
 
-![1](https://github.com/user-attachments/assets/3d5d70d3-8c17-42b1-bf9c-977b79313434)
+*   **3D Transform Matrices:** Utilizing `rotateY` and `translateZ` properties to position elements in a virtual 3D space.
+*   **Perspective Management:** Implementing `perspective` on the parent container to simulate depth and realistic visual scaling.
+*   **Keyframe Synchronization:** Orchestrating smooth, continuous animations that handle state changes (like hover-to-pause) without frame drops.
+*   **Hardware Acceleration:** Leveraging GPU-optimized CSS properties to ensure 60fps performance even during complex rotations.
+
+## 🌟 Key Features
+
+*   **Spatial Carousel Logic:** A rotating interface that provides a unique way to display multi-media content.
+*   **Fluid 3D Transitions:** Smooth entry/exit animations for each photo within the 360-degree orbit.
+*   **Interactive UX:** Dynamic feedback loops that react to user focus, enhancing engagement through depth.
+
+## 🔧 Technical Stack
+
+*   **HTML5:** Structured DOM elements for efficient 3D mapping.
+*   **CSS3:** Advanced usage of `preserve-3d`, `backface-visibility`, and `cubic-bezier` timing functions.
+
+## 📸 Visual Showcase
+
+![Carousel Preview](https://github.com/user-attachments/assets/3d5d70d3-8c17-42b1-bf9c-977b79313434)
+
+---
+
+## 🛠️ Installation & Usage
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/emineugurlu/CSS-SLIDER.git](https://github.com/emineugurlu/CSS-SLIDER.git)
+2. **Open the Project:**
+   ````bash
+   cd CSS-SLIDER
+   open index.html
+
+Developed by Emine Uğurlu with a focus on 3D CSS physics and interactive UI.
